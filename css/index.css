@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.whole{
+    display: flex;
+    gap: 3%;
+    margin-top: 0%;
+}
+.pik1 img{
+    clip-path: circle(70px at center);
+    width: 60%;
+    /* height: 20%; */
+    padding-left: 18%;
+    padding-top: 1%;
+}
+.part1{
+    background-color: honeydew;
+    width: 23%;
+    margin-top: 1px;
+}
+.list{
+    padding-left: 25%;
+    /* list-style: none; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list ul li{
+    padding: 3%;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.p1{
+    margin-left: 5px;
+}
+.ho {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.h1{
+    padding-left: 18%;
+    padding-top: 3px;
+}
+.blue{
+    color: dodgerblue;
+}
+h6{
+    padding-left: 15%;
+}
+.part2{
+    background-image: url(https://images.pexels.com/photos/912413/pexels-photo-912413.jpeg?auto=compress&cs=tinysrgb&w=600);
+    width: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p2{
+    margin-top: 20%;
+    padding: 5%;
+}
+.h2{
+    font-size: 36px;
+}
+.pra{
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.butt1 button{
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+
+}
+button:hover{
+    background-color: darkgray;
+    transform: translateY(10px);
+}
+
